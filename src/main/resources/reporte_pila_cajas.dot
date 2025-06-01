@@ -1,0 +1,7 @@
+digraph PilaCajas {
+    rankdir=TB;
+    node [shape=record, style=filled, fillcolor=lightgoldenrod];
+    nodo0 [label="ID: 2\nFecha: 2025-05-30"];
+    nodo0 -> nodo1;
+    nodo1 [label="ID: 1\nFecha: 2025-05-31"];
+}

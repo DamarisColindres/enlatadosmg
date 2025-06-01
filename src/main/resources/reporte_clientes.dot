@@ -1,0 +1,7 @@
+digraph AVLClientes {
+    node [shape=record, style=filled, fillcolor=lightyellow];
+    rankdir=TB;
+    "456789123" [label="{456789123\nLuis Rodríguez\n555-9012}"];
+    "123456789" [label="{123456789\nPedro Updated Gómez Updated\n555-0000}"];
+    "456789123" -> "123456789";
+}

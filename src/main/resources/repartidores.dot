@@ -1,0 +1,5 @@
+digraph ColaRepartidores {
+    rankdir=LR;
+    node [shape=record, style=filled, fillcolor=lightgreen];
+    nodo0 [label="CUI: 123456789\nNombre: Pedro Gómez\nLicencia: B\nTel: 555-1234"];
+}

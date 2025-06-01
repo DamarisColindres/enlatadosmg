@@ -1,0 +1,9 @@
+digraph G {
+node [shape=record];
+node [shape=record];
+"P002" [label="{Frijoles | Stock: 50}"];
+"P002" -> "P001";
+"P001" [label="{Atún | Stock: 100}"];
+"P002" -> "P003";
+"P003" [label="{Maíz | Stock: 120}"];
+}

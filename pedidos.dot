@@ -1,0 +1,7 @@
+digraph Pedidos {
+rankdir=LR;
+node [shape=box];
+n0 [label="Pedido #1\nEstado: null"];
+n0 -> n1;
+n1 [label="Pedido #2\nEstado: Completado"];
+}

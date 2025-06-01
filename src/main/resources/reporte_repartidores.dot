@@ -1,0 +1,7 @@
+digraph ColaRepartidores {
+    rankdir=LR;
+    node [shape=record, style=filled, fillcolor=lightgreen];
+    nodo0 [label="CUI: 987654321\nNombre: Ana Martínez\nLicencia: A\nTel: 555-5678"];
+    nodo0 -> nodo1;
+    nodo1 [label="CUI: 456789123\nNombre: Luis Rodríguez\nLicencia: C\nTel: 555-9012"];
+}
